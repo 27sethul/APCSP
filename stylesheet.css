@@ -1,0 +1,79 @@
+.heading {
+  padding: 60px;
+  font-size: 25px;
+  text-align: center;
+  background: green;
+}
+           
+ 
+.section {
+  background-color: #E9E2FA;
+  padding: 20px;
+  margin-top: 30px;
+}
+.book {
+  background-color: look-up-a-good color;
+  padding: 20px;
+  margin-top: 30px;
+}
+/* ChatGPT wrote this*/
+/* Global Styles for Consistency and Better Responsiveness */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Enhanced Heading Style */
+.heading {
+  padding: 80px;
+  font-size: 32px;
+  text-align: center;
+  background: linear-gradient(90deg, #28a745, #218838);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Section Styling with Shadow and Border Radius */
+.section {
+  background-color: #ede7f6;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  transition: transform 0.3s ease;
+}
+
+.section:hover {
+  transform: scale(1.02);
+}
+
+/* Book Styling with Modern Colors and Effects */
+.book {
+  background-color: #c6e2ff; /* A light, soft blue shade */
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book:hover {
+  background-color: #add8e6; /* Subtle hover effect */
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 28px;
+    padding: 50px;
+  }
+
+  .section, .book {
+    padding: 15px;
+    margin: 15px auto;
+  }
+}
